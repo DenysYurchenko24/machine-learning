@@ -71,7 +71,7 @@ model.add(keras.layers.Dense(1))
 print(model.summary())
 model.compile(optimizer='adam', loss='mse')
 
-history = model.fit(X, y, epochs=1000, batch_size=4, validation_data = (X_t, y_t), verbose=1)
+history = model.fit(X, y, epochs=200, batch_size=4, validation_data = (X_t, y_t), verbose=1)
 
 pred = model.predict(X_test)
 print(np.array(pred, dtype=int))
