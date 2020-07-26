@@ -1,5 +1,5 @@
 # machine-learning
-Notebooks regarding ML/DL experiments.
+Notebooks regarding my ML/DL experiments.
 
 Descriptions of the projects could be found within the notebooks.
 
